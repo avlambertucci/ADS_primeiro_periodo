@@ -1,0 +1,19 @@
+#footerId img {
+	width: 20px;
+	height: 20px;
+
+}
+
+footer{
+	background-color: #EFEDEC;
+	width: 100%;
+}
+
+#empresa ul{
+	font-family: Arial, Verdana
+	background-color: pink;
+}
+
+.ieFix {
+	min-height: 1px;
+}
