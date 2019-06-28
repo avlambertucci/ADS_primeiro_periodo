@@ -1,0 +1,84 @@
+#footerId img {
+	width: 20px;
+	height: 20px;
+}
+
+
+p, span, ul {
+	color: white;
+}
+
+
+
+main, body, html {
+
+	background-color: #100101;
+
+}
+
+main div {
+
+		margin: 0 auto;
+	    padding: 15px;
+	    margin: 5px auto;
+}
+
+.filmes img{
+
+	width: 200px;
+	height: 250px;
+}
+.filmes {
+
+	display: inline-block;
+	border: solid;
+	border-width: 3px;
+	border-color: brown;
+	width: 200px;
+	height: 250px;
+	margin-left: 50px;
+	margin-right: -40px;
+	margin-bottom: 5px;
+
+}
+
+#resposta{
+	height: 150px;
+	width: 600px;
+	background-color: black;
+	font-size: 20px;
+	color: white;
+}
+
+.infos{
+
+	position: relative;
+	background-color: blue;
+}
+footer{
+	background-color: #230404;
+	
+}
+/*  QUANDO AUMENTO A FONT DO P HEADER ABRE UM ESPAÇO EM BRANCO ACIMA DO HEADER */
+header p{
+	height: 100px;
+	vertical-align: center;
+	font-size: 130px;
+	background-color: #100101;
+	font-family: strange;
+	letter-spacing: 5px;
+	line-height: 100px;
+
+}
+
+div:hover{
+	background-color: #ffffff!important;
+	color: #FF4500;
+	font-weight: bold;
+	font-size: 5px;
+	transition: 1s;
+}
+@font-face{
+	font-family: strange;
+	src: url(jonathan-s-harris_something-strange/SomethingStrange.ttf) format("truetype");
+}
